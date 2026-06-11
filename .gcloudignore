@@ -1,0 +1,24 @@
+# This file controls what gets uploaded to Cloud Build.
+# Syntax is identical to .gitignore.
+
+.gcloudignore
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environment — largest offender, never needed in Cloud Build
+venv/
+.venv/
+env/
+
+# Secrets — never upload
+.env
+*.json
+
+# Docs
+*.md

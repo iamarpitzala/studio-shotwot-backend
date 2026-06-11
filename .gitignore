@@ -1,0 +1,7 @@
+gcp-credentials.json
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+config.bat
+node_modules
